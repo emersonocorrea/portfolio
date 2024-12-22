@@ -9,15 +9,15 @@ export const Nav = () => {
             </div>
             <div className="flex flex-row justify-evenly w-full">
                 <Anchor 
-                    url="#"
+                    url="#sobre"
                     text="Sobre"
                 />
                 <Anchor 
-                    url="#"
+                    url="#stack"
                     text="Stack"
                 />
                 <Anchor 
-                    url="#"
+                    url="#projetos"
                     text="projetos"
                 />
             </div>

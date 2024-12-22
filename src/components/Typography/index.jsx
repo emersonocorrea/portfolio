@@ -22,9 +22,9 @@ export const Label = ({text}) => {
     )
 }
 
-export const Anchor = ({text, url}) => {
+export const Anchor = ({text, url, icon}) => {
     return(
-        <a href={url} className="active:text-colorLink font-bold text-[16px]">{text}</a>
+        <a href={url} className="hover:text-colorLink font-bold text-[16px]">{text} {icon}</a>
     )
 }
 

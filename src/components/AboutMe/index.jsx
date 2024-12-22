@@ -2,7 +2,7 @@ import { Title2, Parag } from "../Typography"
 
 export const AboutMe = () => {
     return(
-        <div className="w-full flex flex-col items-start md:flex-row md:justify-between gap-y-4">
+        <div className="w-full flex flex-col items-start md:flex-row md:justify-between gap-y-4" id="sobre">
             <div className="flex-1">
                 <Title2
                     text="Sobre mim"

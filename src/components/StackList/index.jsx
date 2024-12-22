@@ -4,7 +4,7 @@ import { stacks } from "@/data/stacks"
 
 export const StackList = () => {
     return(
-        <div className="w-full flex flex-col items-start gap-6">
+        <div className="w-full flex flex-col items-start gap-6" id="stack">
             <Title2 text="Tecnologias"/>
             <ul className="flex md:flex-wrap  flex-col w-full gap-6 md:flex-row ">
                 {stacks.map(stack => 
